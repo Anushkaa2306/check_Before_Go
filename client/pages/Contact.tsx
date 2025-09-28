@@ -42,7 +42,7 @@ export default function Contact() {
   };
 
   return (
-    <div className="min-h-screen bg-background py-12 sm:py-16 lg:py-24">
+    <div className="min-h-screen bg-green-100 py-12 sm:py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto space-y-12">
           <section className="text-center space-y-3">

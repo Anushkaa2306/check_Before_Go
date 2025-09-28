@@ -11,7 +11,7 @@ export default function Parts() {
   };
 
   return (
-    <div className="min-h-screen bg-background py-12">
+    <div className="min-h-screen bg-green-100 py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
           <div className="mb-8">

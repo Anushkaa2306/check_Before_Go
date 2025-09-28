@@ -1,6 +1,6 @@
 export default function About() {
   return (
-    <div className="min-h-screen bg-background py-12 sm:py-16 lg:py-24">
+    <div className="min-h-screen bg-green-100 py-12 sm:py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto">
           {/* Header */}
@@ -14,7 +14,7 @@ export default function About() {
           </section>
 
           {/* Problems CBG Solves */}
-          <section className="bg-muted/30 p-6 rounded-lg mb-10 shadow-sm">
+          <section className="bg-muted/50 p-6 rounded-lg mb-10 shadow-sm">
             <h2 className="text-2xl font-semibold text-primary mb-4 text-center">
               Common Customer Discoveries
             </h2>
@@ -38,7 +38,7 @@ export default function About() {
           </section>
 
           {/* Our Promise */}
-          <section className="bg-primary/5 p-6 rounded-lg shadow-inner mb-10">
+          <section className="bg-muted/50 p-6 rounded-lg shadow-inner mb-10">
             <h2 className="text-2xl font-bold text-primary mb-4 text-center">Our Promise</h2>
             <ul className="list-disc list-inside space-y-3 text-muted-foreground text-base">
               <li>100% independent and unbiased reporting</li>

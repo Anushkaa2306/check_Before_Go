@@ -143,9 +143,7 @@ export default function PricingSection() {
         <div className={`text-center mt-12 transition-all duration-700 ease-out delay-1000 ${
           isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
         }`}>
-          <p className="text-sm text-muted-foreground">
-            * All prices include comprehensive inspection report and 30-day warranty
-          </p>
+          
         </div>
         
       </div>
